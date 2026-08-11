@@ -22,7 +22,7 @@ x = np.linspace(0, 5, 41)
 
 y = np.asarray([Custo(valor) for valor in x]) / 1000000
 
-plt.figure(figsize=(8, 5))
+plt.figure(figsize=(10, 5))
 plt.plot(x, y, label="Custo", color="red", linewidth=2.5)
 plt.title("Custo em Milhões Com o Nivel de Produção")
 plt.xlabel("Nivel De Produção:")
